@@ -1,0 +1,103 @@
+{
+ "_note": "Retrieval test queries, written BEFORE running retrieval evaluation. 'expect' = the section a good search must return in the top 3. heldout_* queries were written after the round-1 fixes and before the final run.",
+ "sales_kb": [
+  {
+   "q": "logistics company warehouse payroll attendance disputes",
+   "expect": "Logistics case study"
+  },
+  {
+   "q": "contract workers PF filing inspection notice",
+   "expect": "Manufacturing case study"
+  },
+  {
+   "q": "hospital nursing rosters overtime",
+   "expect": "Healthcare case study"
+  },
+  {
+   "q": "grocery chain store attendance on WhatsApp",
+   "expect": "Retail case study"
+  },
+  {
+   "q": "variable pay errors onboarding software firm",
+   "expect": "IT services case study"
+  },
+  {
+   "q": "how much does it cost per employee",
+   "expect": "Pricing and implementation"
+  },
+  {
+   "q": "is our data stored in India, DPDP",
+   "expect": "Integrations and data security"
+  },
+  {
+   "q": "prospect says they manage fine with spreadsheets",
+   "expect": "Objection: we manage fine with Excel"
+  },
+  {
+   "q": "prospect has no budget this year",
+   "expect": "Objection: no budget right now"
+  },
+  {
+   "q": "geo-fenced mobile attendance for field staff",
+   "expect": "Attendance, shifts and rosters"
+  }
+ ],
+ "policy_kb": [
+  {
+   "q": "email must let the recipient opt out",
+   "expect": "Consent and opt-out"
+  },
+  {
+   "q": "can we invent statistics or customer names",
+   "expect": "Claims and evidence"
+  },
+  {
+   "q": "maximum email length and subject line",
+   "expect": "Length and format"
+  },
+  {
+   "q": "who approves an email before sending",
+   "expect": "Human approval"
+  },
+  {
+   "q": "tone of voice friendly peer not salesperson",
+   "expect": "Brand voice"
+  }
+ ],
+ "heldout_sales_kb": [
+  {
+   "q": "what do customers pay monthly for each head",
+   "expect": "Pricing and implementation"
+  },
+  {
+   "q": "factory facing a labour inspection problem",
+   "expect": "Manufacturing case study"
+  },
+  {
+   "q": "staff check in from their phone",
+   "expect": "Attendance, shifts and rosters"
+  },
+  {
+   "q": "they already use another HR software",
+   "expect": "Objection: we already have an HR vendor"
+  },
+  {
+   "q": "worried about moving data from the old system",
+   "expect": "Objection: migration effort"
+  },
+  {
+   "q": "salary slips emailed to employees automatically",
+   "expect": "Payroll automation"
+  }
+ ],
+ "heldout_policy_kb": [
+  {
+   "q": "is it ok to promise results",
+   "expect": "Claims and evidence"
+  },
+  {
+   "q": "how short should a linkedin note be",
+   "expect": "Length and format"
+  }
+ ]
+}

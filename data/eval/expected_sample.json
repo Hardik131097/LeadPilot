@@ -1,0 +1,23 @@
+{
+  "_note": "Expected outcomes for the 20 sample leads, written from the ICP definition (sales judgement) BEFORE the evaluation script was run. 'tiers' lists every tier a reasonable sales manager would accept; borderline leads accept two.",
+  "L001": {"tiers": ["Hot"], "territory": "North"},
+  "L002": {"tiers": ["Cold"], "territory": "West"},
+  "L003": {"tiers": ["Hot", "Warm"], "territory": "South"},
+  "L004": {"tiers": ["Hot"], "territory": "West"},
+  "L005": {"tiers": ["Disqualified"], "territory": "North"},
+  "L006": {"tiers": ["Hot", "Warm"], "territory": "South"},
+  "L007": {"tiers": ["Hot", "Warm"], "territory": "North"},
+  "L008": {"tiers": ["Warm"], "territory": "South"},
+  "L009": {"tiers": ["Hot"], "territory": "North"},
+  "L010": {"tiers": ["Disqualified"], "territory": "North"},
+  "L011": {"tiers": ["Warm"], "territory": "West"},
+  "L012": {"tiers": ["Hot"], "territory": "West"},
+  "L013": {"tiers": ["Cold"], "territory": "West"},
+  "L014": {"tiers": ["Hot", "Warm"], "territory": "North"},
+  "L015": {"tiers": ["Cold"], "territory": "North"},
+  "L016": {"tiers": ["Warm"], "territory": "South"},
+  "L017": {"tiers": ["Hot"], "territory": "North"},
+  "L018": {"tiers": ["Cold"], "territory": "North"},
+  "L019": {"tiers": ["Cold"], "territory": "South"},
+  "L020": {"tiers": ["Hot", "Warm"], "territory": "South"}
+}

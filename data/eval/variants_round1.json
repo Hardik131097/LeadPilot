@@ -1,0 +1,17 @@
+{
+  "_note": "Round-1 wording variants V1-V12, written BEFORE the first evaluation run. Each copies a sample lead and rephrases one field the way a real CRM export might.",
+  "cases": [
+    {"id": "V1",  "base": "L001", "change": {"title": "Chief People Officer"}, "desc": "CHRO written as Chief People Officer", "tiers": ["Hot"], "territory": "North"},
+    {"id": "V2",  "base": "L001", "change": {"city": "Gurgaon"}, "desc": "Old city name Gurgaon", "tiers": ["Hot"], "territory": "North"},
+    {"id": "V3",  "base": "L008", "change": {"city": "Bangalore"}, "desc": "Bangalore instead of Bengaluru", "tiers": ["Warm"], "territory": "South"},
+    {"id": "V4",  "base": "L012", "change": {"current_hr_tool": "Google Sheets and paper registers"}, "desc": "Manual tools described differently", "tiers": ["Hot"], "territory": "West"},
+    {"id": "V5",  "base": "L004", "change": {"industry": "Hospital"}, "desc": "Industry written as Hospital", "tiers": ["Hot"], "territory": "West"},
+    {"id": "V6",  "base": "L017", "change": {"employees": "1,500"}, "desc": "Headcount with a comma", "tiers": ["Hot"], "territory": "North"},
+    {"id": "V7",  "base": "L009", "change": {"title": "Sr. Manager - Human Resources"}, "desc": "Senior manager title", "tiers": ["Hot", "Warm"], "territory": "North"},
+    {"id": "V8",  "base": "L001", "change": {"industry": "3PL / Logistics"}, "desc": "Industry written as 3PL / Logistics", "tiers": ["Hot"], "territory": "North"},
+    {"id": "V9",  "base": "L005", "change": {"title": "Intern - Marketing"}, "desc": "Intern title reordered", "tiers": ["Disqualified"], "territory": "North"},
+    {"id": "V10", "base": "L015", "change": {"recent_signal": "Very happy with our current vendor"}, "desc": "Satisfied-with-vendor reworded", "tiers": ["Cold"], "territory": "North"},
+    {"id": "V11", "base": "L011", "change": {"city": "Navi Mumbai"}, "desc": "Satellite city of Mumbai", "tiers": ["Warm"], "territory": "West"},
+    {"id": "V12", "base": "L013", "change": {"title": "Office Mgr"}, "desc": "Abbreviated title", "tiers": ["Cold"], "territory": "West"}
+  ]
+}

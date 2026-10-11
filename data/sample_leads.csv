@@ -1,0 +1,21 @@
+lead_id,contact_name,title,company,industry,employees,city,current_hr_tool,recent_signal,lead_source,budget_status,timeline
+L001,Ananya Mehta,CHRO,Brightline Logistics,Logistics,650,Gurugram,Excel + manual payroll,Opened 2 new warehouses and hiring 200 staff,Webinar,Approved,0-3 months
+L002,Rohit Sharma,HR Executive,Pixelcraft Studios,Media,35,Mumbai,Spreadsheets,Posted job for HR assistant,Website form,Unknown,6-12 months
+L003,Priya Nair,VP People,Kovai Precision Tools,Manufacturing,1200,Coimbatore,Legacy on-premise HRMS,Expanding to a second plant in Hosur,Trade show,Exploring,3-6 months
+L004,Vikram Singh,CFO,MedAxis Diagnostics,Healthcare,420,Pune,Tally + Excel,Raised Series B funding,LinkedIn,Approved,0-3 months
+L005,Sneha Kapoor,Marketing Intern,UrbanThreads,Retail,80,Delhi,Manual registers,None,Ebook download,Unknown,Not specified
+L006,Arjun Reddy,HR Director,Nimbus Tech Solutions,IT Services,900,Hyderabad,Competitor HRMS (contract ends in 4 months),Complained publicly about payroll errors,Referral,Exploring,3-6 months
+L007,Kavita Joshi,Founder & CEO,GreenLeaf Organics,FMCG,150,Jaipur,Excel,Launching in 5 new states,Webinar,Exploring,3-6 months
+L008,Manish Gupta,Payroll Manager,SwiftMove Couriers,Logistics,2400,Bengaluru,Outsourced payroll vendor,Vendor contract up for renewal,Cold list,Unknown,6-12 months
+L009,Neha Bansal,Head of HR,EduSpark Academy,Education,300,Lucknow,Spreadsheets,Hiring 50 teachers for a new campus,Website form,Approved,0-3 months
+L010,Sameer Khan,Student,Self,Other,1,Delhi,None,None,Ebook download,Unknown,Not specified
+L011,Deepa Iyer,HR Manager,FinVerse Payments,Fintech,250,Mumbai,Basic HR app,Concerned about new labour code compliance,LinkedIn,Exploring,3-6 months
+L012,Rajesh Patel,Plant HR Head,Sabarmati Textiles,Manufacturing,1800,Ahmedabad,Manual + Excel,Labour inspection penalty last quarter,Trade show,Approved,0-3 months
+L013,Aisha Fernandes,Office Manager,CloudNest Coworking,Real Estate,60,Goa,Spreadsheets,None,Website form,Unknown,6-12 months
+L014,Karan Malhotra,COO,CarePlus Hospitals,Healthcare,3200,Chandigarh,Legacy on-premise HRMS,Announced a digital transformation initiative,Referral,Approved,3-6 months
+L015,Pooja Verma,Talent Acquisition Lead,ByteForge Labs,IT Services,180,Noida,Competitor HRMS,Happy with current vendor,Webinar,No budget,Not specified
+L016,Suresh Menon,Finance Manager,Coastal Seafoods Exports,Manufacturing,520,Kochi,Tally + Excel,Shift-wise workforce of 300 contract workers,Cold list,Exploring,6-12 months
+L017,Ritika Saxena,CHRO,QuickBasket,Retail,1500,Gurugram,Multiple disconnected tools,Opening 40 dark stores,LinkedIn,Approved,0-3 months
+L018,Amit Choudhary,HR Generalist,TinyBox Packaging,Manufacturing,45,Faridabad,Manual registers,None,Cold list,Unknown,Not specified
+L019,Farhan Ali,Director - People Ops,LearnLoop EdTech,Education,700,Bengaluru,Spreadsheets,Recent layoffs and restructuring,Website form,No budget,6-12 months
+L020,Meera Krishnan,Head of HR,Solace Pharma,Healthcare,950,Chennai,Excel + manual payroll,New manufacturing unit approved,Webinar,Exploring,0-3 months

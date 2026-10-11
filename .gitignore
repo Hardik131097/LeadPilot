@@ -1,0 +1,19 @@
+# Secrets - never commit your API keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated at runtime
+outputs/*
+!outputs/.gitkeep
+.chroma/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

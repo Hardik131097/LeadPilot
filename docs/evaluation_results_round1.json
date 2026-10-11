@@ -1,0 +1,740 @@
+{
+ "label": "round1",
+ "run_at": "10 October 2026 17:19",
+ "mode": "demo (rule-based, no LLM)",
+ "sets": {
+  "sample": [
+   {
+    "id": "L001",
+    "desc": "Brightline Logistics",
+    "tier": "Hot",
+    "score": 100,
+    "expected_tiers": [
+     "Hot"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "L002",
+    "desc": "Pixelcraft Studios",
+    "tier": "Cold",
+    "score": 38,
+    "expected_tiers": [
+     "Cold"
+    ],
+    "tier_ok": true,
+    "territory": "West",
+    "expected_territory": "West",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Not applicable"
+   },
+   {
+    "id": "L003",
+    "desc": "Kovai Precision Tools",
+    "tier": "Hot",
+    "score": 91,
+    "expected_tiers": [
+     "Hot",
+     "Warm"
+    ],
+    "tier_ok": true,
+    "territory": "South",
+    "expected_territory": "South",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "L004",
+    "desc": "MedAxis Diagnostics",
+    "tier": "Hot",
+    "score": 98,
+    "expected_tiers": [
+     "Hot"
+    ],
+    "tier_ok": true,
+    "territory": "West",
+    "expected_territory": "West",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "L005",
+    "desc": "UrbanThreads",
+    "tier": "Disqualified",
+    "score": 43,
+    "expected_tiers": [
+     "Disqualified"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Not applicable"
+   },
+   {
+    "id": "L006",
+    "desc": "Nimbus Tech Solutions",
+    "tier": "Warm",
+    "score": 87,
+    "expected_tiers": [
+     "Hot",
+     "Warm"
+    ],
+    "tier_ok": true,
+    "territory": "South",
+    "expected_territory": "South",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "L007",
+    "desc": "GreenLeaf Organics",
+    "tier": "Warm",
+    "score": 89,
+    "expected_tiers": [
+     "Hot",
+     "Warm"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "L008",
+    "desc": "SwiftMove Couriers",
+    "tier": "Warm",
+    "score": 73,
+    "expected_tiers": [
+     "Warm"
+    ],
+    "tier_ok": true,
+    "territory": "South",
+    "expected_territory": "South",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "L009",
+    "desc": "EduSpark Academy",
+    "tier": "Hot",
+    "score": 94,
+    "expected_tiers": [
+     "Hot"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "L010",
+    "desc": "Self",
+    "tier": "Disqualified",
+    "score": 11,
+    "expected_tiers": [
+     "Disqualified"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Not applicable"
+   },
+   {
+    "id": "L011",
+    "desc": "FinVerse Payments",
+    "tier": "Warm",
+    "score": 81,
+    "expected_tiers": [
+     "Warm"
+    ],
+    "tier_ok": true,
+    "territory": "West",
+    "expected_territory": "West",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "L012",
+    "desc": "Sabarmati Textiles",
+    "tier": "Hot",
+    "score": 100,
+    "expected_tiers": [
+     "Hot"
+    ],
+    "tier_ok": true,
+    "territory": "West",
+    "expected_territory": "West",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "L013",
+    "desc": "CloudNest Coworking",
+    "tier": "Cold",
+    "score": 50,
+    "expected_tiers": [
+     "Cold"
+    ],
+    "tier_ok": true,
+    "territory": "West",
+    "expected_territory": "West",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Not applicable"
+   },
+   {
+    "id": "L014",
+    "desc": "CarePlus Hospitals",
+    "tier": "Warm",
+    "score": 88,
+    "expected_tiers": [
+     "Hot",
+     "Warm"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "L015",
+    "desc": "ByteForge Labs",
+    "tier": "Cold",
+    "score": 50,
+    "expected_tiers": [
+     "Cold"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Not applicable"
+   },
+   {
+    "id": "L016",
+    "desc": "Coastal Seafoods Exports",
+    "tier": "Warm",
+    "score": 75,
+    "expected_tiers": [
+     "Warm"
+    ],
+    "tier_ok": true,
+    "territory": "South",
+    "expected_territory": "South",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "L017",
+    "desc": "QuickBasket",
+    "tier": "Hot",
+    "score": 96,
+    "expected_tiers": [
+     "Hot"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "L018",
+    "desc": "TinyBox Packaging",
+    "tier": "Cold",
+    "score": 47,
+    "expected_tiers": [
+     "Cold"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Not applicable"
+   },
+   {
+    "id": "L019",
+    "desc": "LearnLoop EdTech",
+    "tier": "Warm",
+    "score": 67,
+    "expected_tiers": [
+     "Cold"
+    ],
+    "tier_ok": false,
+    "territory": "South",
+    "expected_territory": "South",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "L020",
+    "desc": "Solace Pharma",
+    "tier": "Hot",
+    "score": 94,
+    "expected_tiers": [
+     "Hot",
+     "Warm"
+    ],
+    "tier_ok": true,
+    "territory": "South",
+    "expected_territory": "South",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   }
+  ],
+  "variants_round1": [
+   {
+    "id": "V1",
+    "desc": "CHRO written as Chief People Officer",
+    "tier": "Hot",
+    "score": 100,
+    "expected_tiers": [
+     "Hot"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "V2",
+    "desc": "Old city name Gurgaon",
+    "tier": "Hot",
+    "score": 100,
+    "expected_tiers": [
+     "Hot"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "V3",
+    "desc": "Bangalore instead of Bengaluru",
+    "tier": "Warm",
+    "score": 73,
+    "expected_tiers": [
+     "Warm"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "South",
+    "route_ok": false,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "V4",
+    "desc": "Manual tools described differently",
+    "tier": "Hot",
+    "score": 100,
+    "expected_tiers": [
+     "Hot"
+    ],
+    "tier_ok": true,
+    "territory": "West",
+    "expected_territory": "West",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "V5",
+    "desc": "Industry written as Hospital",
+    "tier": "Warm",
+    "score": 84,
+    "expected_tiers": [
+     "Hot"
+    ],
+    "tier_ok": false,
+    "territory": "West",
+    "expected_territory": "West",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "V6",
+    "desc": "Headcount with a comma",
+    "tier": "Hot",
+    "score": 96,
+    "expected_tiers": [
+     "Hot"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "V7",
+    "desc": "Senior manager title",
+    "tier": "Warm",
+    "score": 88,
+    "expected_tiers": [
+     "Hot",
+     "Warm"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "V8",
+    "desc": "Industry written as 3PL / Logistics",
+    "tier": "Warm",
+    "score": 84,
+    "expected_tiers": [
+     "Hot"
+    ],
+    "tier_ok": false,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "V9",
+    "desc": "Intern title reordered",
+    "tier": "Disqualified",
+    "score": 43,
+    "expected_tiers": [
+     "Disqualified"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Not applicable"
+   },
+   {
+    "id": "V10",
+    "desc": "Satisfied-with-vendor reworded",
+    "tier": "Cold",
+    "score": 53,
+    "expected_tiers": [
+     "Cold"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "North",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Not applicable"
+   },
+   {
+    "id": "V11",
+    "desc": "Satellite city of Mumbai",
+    "tier": "Warm",
+    "score": 81,
+    "expected_tiers": [
+     "Warm"
+    ],
+    "tier_ok": true,
+    "territory": "North",
+    "expected_territory": "West",
+    "route_ok": false,
+    "draft_rule_ok": true,
+    "review_status": "Approved - awaiting human sign-off"
+   },
+   {
+    "id": "V12",
+    "desc": "Abbreviated title",
+    "tier": "Cold",
+    "score": 42,
+    "expected_tiers": [
+     "Cold"
+    ],
+    "tier_ok": true,
+    "territory": "West",
+    "expected_territory": "West",
+    "route_ok": true,
+    "draft_rule_ok": true,
+    "review_status": "Not applicable"
+   }
+  ]
+ },
+ "deterministic_scores": true,
+ "grounding": {
+  "drafts": 14,
+  "unverified_figures": 0,
+  "opt_out_present": 14,
+  "banned_phrases": 0,
+  "within_length": 14,
+  "approved": 14
+ },
+ "red_team": {
+  "drafts": 14,
+  "baseline_clean": 14,
+  "per_fault": {
+   "Banned phrase in subject": {
+    "planted": 14,
+    "detected": 14,
+    "fixed_by_rules": 14,
+    "flagged_for_human": 0,
+    "escaped": 0
+   },
+   "Banned phrase in body": {
+    "planted": 14,
+    "detected": 14,
+    "fixed_by_rules": 14,
+    "flagged_for_human": 0,
+    "escaped": 0
+   },
+   "Invented statistic": {
+    "planted": 14,
+    "detected": 14,
+    "fixed_by_rules": 0,
+    "flagged_for_human": 14,
+    "escaped": 0
+   },
+   "Opt-out line removed": {
+    "planted": 14,
+    "detected": 14,
+    "fixed_by_rules": 14,
+    "flagged_for_human": 0,
+    "escaped": 0
+   },
+   "Contact name removed": {
+    "planted": 14,
+    "detected": 14,
+    "fixed_by_rules": 0,
+    "flagged_for_human": 14,
+    "escaped": 0
+   },
+   "Company name removed": {
+    "planted": 14,
+    "detected": 14,
+    "fixed_by_rules": 0,
+    "flagged_for_human": 14,
+    "escaped": 0
+   },
+   "Call-to-action removed": {
+    "planted": 14,
+    "detected": 14,
+    "fixed_by_rules": 0,
+    "flagged_for_human": 14,
+    "escaped": 0
+   },
+   "Unfilled placeholder": {
+    "planted": 14,
+    "detected": 14,
+    "fixed_by_rules": 0,
+    "flagged_for_human": 14,
+    "escaped": 0
+   },
+   "Email far too long": {
+    "planted": 14,
+    "detected": 14,
+    "fixed_by_rules": 0,
+    "flagged_for_human": 14,
+    "escaped": 0
+   },
+   "Subject too long": {
+    "planted": 14,
+    "detected": 14,
+    "fixed_by_rules": 14,
+    "flagged_for_human": 0,
+    "escaped": 0
+   }
+  }
+ },
+ "retrieval": {
+  "sales_kb": [
+   {
+    "query": "logistics company warehouse payroll attendance disputes",
+    "expect": "Logistics case study",
+    "top3": [
+     "Logistics case study: national courier company, 700 employees",
+     "Attendance, shifts and rosters",
+     "Payroll automation"
+    ],
+    "rank": 1
+   },
+   {
+    "query": "contract workers PF filing inspection notice",
+    "expect": "Manufacturing case study",
+    "top3": [
+     "Manufacturing case study: auto-components maker, 1,500 employees",
+     "Contract and multi-location workforce",
+     "Integrations and data security"
+    ],
+    "rank": 1
+   },
+   {
+    "query": "hospital nursing rosters overtime",
+    "expect": "Healthcare case study",
+    "top3": [
+     "Healthcare case study: multi-specialty hospital group, 2,000 staff",
+     "Attendance, shifts and rosters",
+     "Objection: we manage fine with Excel"
+    ],
+    "rank": 1
+   },
+   {
+    "query": "grocery chain store attendance on WhatsApp",
+    "expect": "Retail case study",
+    "top3": [
+     "Retail case study: grocery chain, 60 stores",
+     "Attendance, shifts and rosters",
+     "Logistics case study: national courier company, 700 employees"
+    ],
+    "rank": 1
+   },
+   {
+    "query": "variable pay errors onboarding software firm",
+    "expect": "IT services case study",
+    "top3": [
+     "IT services case study: software services firm, 800 employees",
+     "Healthcare case study: multi-specialty hospital group, 2,000 staff",
+     "Onboarding and employee self-service"
+    ],
+    "rank": 1
+   },
+   {
+    "query": "how much does it cost per employee",
+    "expect": "Pricing and implementation",
+    "top3": [
+     "Objection: we manage fine with Excel",
+     "Objection: we already have an HR vendor",
+     "Objection: no budget right now"
+    ],
+    "rank": null
+   },
+   {
+    "query": "is our data stored in India, DPDP",
+    "expect": "Integrations and data security",
+    "top3": [
+     "Integrations and data security",
+     "Objection: data security concerns",
+     "Manufacturing case study: auto-components maker, 1,500 employees"
+    ],
+    "rank": 1
+   },
+   {
+    "query": "prospect says they manage fine with spreadsheets",
+    "expect": "Objection: we manage fine with Excel",
+    "top3": [
+     "Objection: we manage fine with Excel",
+     "Pricing and implementation",
+     "Contract and multi-location workforce"
+    ],
+    "rank": 1
+   },
+   {
+    "query": "prospect has no budget this year",
+    "expect": "Objection: no budget right now",
+    "top3": [
+     "Objection: no budget right now",
+     "Objection: data security concerns",
+     "Payroll automation"
+    ],
+    "rank": 1
+   },
+   {
+    "query": "geo-fenced mobile attendance for field staff",
+    "expect": "Attendance, shifts and rosters",
+    "top3": [
+     "Logistics case study: national courier company, 700 employees",
+     "Attendance, shifts and rosters",
+     "Fintech case study: payments company, 300 employees"
+    ],
+    "rank": 2
+   }
+  ],
+  "policy_kb": [
+   {
+    "query": "email must let the recipient opt out",
+    "expect": "Consent and opt-out",
+    "top3": [
+     "Consent and opt-out (DPDP Act 2023 and anti-spam good practice)",
+     "Length and format",
+     "Brand voice"
+    ],
+    "rank": 1
+   },
+   {
+    "query": "can we invent statistics or customer names",
+    "expect": "Claims and evidence",
+    "top3": [
+     "Claims and evidence",
+     "Brand voice",
+     "Human approval"
+    ],
+    "rank": 1
+   },
+   {
+    "query": "maximum email length and subject line",
+    "expect": "Length and format",
+    "top3": [
+     "Length and format",
+     "Consent and opt-out (DPDP Act 2023 and anti-spam good practice)",
+     "Brand voice"
+    ],
+    "rank": 1
+   },
+   {
+    "query": "who approves an email before sending",
+    "expect": "Human approval",
+    "top3": [
+     "Consent and opt-out (DPDP Act 2023 and anti-spam good practice)",
+     "Length and format",
+     "Brand voice"
+    ],
+    "rank": null
+   },
+   {
+    "query": "tone of voice friendly peer not salesperson",
+    "expect": "Brand voice",
+    "top3": [
+     "Brand voice",
+     "Consent and opt-out (DPDP Act 2023 and anti-spam good practice)",
+     "Human approval"
+    ],
+    "rank": 1
+   }
+  ]
+ },
+ "pipeline_seconds_20_leads": 0.1,
+ "eval_seconds": 1.0
+}

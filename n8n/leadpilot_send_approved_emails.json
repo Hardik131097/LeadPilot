@@ -1,0 +1,54 @@
+{
+  "name": "LeadPilot - Send approved outreach (Webhook + SMTP)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "leadpilot",
+        "options": {}
+      },
+      "id": "8a1c2d10-0001-4c1a-9a01-leadpilot0001",
+      "name": "Webhook - approved emails from LeadPilot",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "webhookId": "5d2f8c3e-leadpilot-webhook-0001"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "body.emails",
+        "options": {}
+      },
+      "id": "8a1c2d10-0002-4c1a-9a01-leadpilot0002",
+      "name": "Split Out - one item per email",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [240, 0]
+    },
+    {
+      "parameters": {
+        "fromEmail": "YOUR_EMAIL@gmail.com",
+        "toEmail": "={{ $json.to }}",
+        "subject": "={{ $json.subject }}",
+        "emailFormat": "text",
+        "text": "={{ $json.email_body }}",
+        "options": {}
+      },
+      "id": "8a1c2d10-0003-4c1a-9a01-leadpilot0003",
+      "name": "Send Email (SMTP)",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [480, 0]
+    }
+  ],
+  "connections": {
+    "Webhook - approved emails from LeadPilot": {
+      "main": [[{ "node": "Split Out - one item per email", "type": "main", "index": 0 }]]
+    },
+    "Split Out - one item per email": {
+      "main": [[{ "node": "Send Email (SMTP)", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": { "executionOrder": "v1" },
+  "pinData": {}
+}
